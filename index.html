@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS Assessment</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./app/models/instrument.js"></script>
+    <script src="./app/models/category.js"></script>
+    <script src="./app/db/store.js"></script>
+    <script src="./app/controllers/input_controller.js"></script>
+    <script src="./practice.js"></script>
+  </head>
+  <body>
+    <h3>Musical Instrument</h3>
+    <form id="instrument-input" action="index.html" method="post">
+      <label for="">Instrument Name:</label>
+      <input type="text" class = "input-entry" name="instrument[name]" value="" required>
+      <label for="">Category:</label>
+      <input type="text" class = "input-entry" name="instrument[category]" value="" required>
+      <input type="submit" name="" value="Submit">
+    </form>
+    <section class="categories">
+      <h3>Categories</h3>
+      <div class="categories">
+        <!-- <ul>
+        <li>Percussion</li>
+        <ul>
+        <li>snare drum</li>
+      </ul>
+      <li>Strings</li>
+    </ul> -->
+      </div>
+    </section>
+  </body>
+</html>
